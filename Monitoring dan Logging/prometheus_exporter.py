@@ -32,7 +32,7 @@ def predict():
     THROUGHPUT.inc()  # Tambah throughput (request per detik)
  
     # Kirim request ke API model
-    api_url = "http://127.0.0.1:5005/invocations"
+    api_url = "http://127.0.0.1:5001/invocations"
     data = request.get_json()
  
     try:
